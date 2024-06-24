@@ -1,0 +1,53 @@
+body{
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+button{
+    all: unset;
+    padding: 6px 16px;
+    background-color: rgb(156, 48, 48);
+    height: 32px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+nav img{
+    height: 100px;
+    width: 200px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.hero h1{
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 102px;
+}
+.hero p{
+    font-weight: 600;
+    color: gray;
+}
+.hero-btn{
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+}
+.hero-img img{
+    height: 600px;
+    width: 600px;
+}
